@@ -19,11 +19,12 @@ shared_scripts {
 server_scripts {
     --'@mysql-async/lib/MySQL.lua',
     '@oxmysql/lib/MySQL.lua',
-    '@connectqueue/connectqueue.lua',
+    --'@connectqueue/connectqueue.lua',
     'locale.lua',
     'locales/*.lua',
     'config.lua',
     'server/utils.lua',
     'server/functions/*.lua',
-    'server/main.lua'
+    'server/main.lua',
+'server/Route-serverside.js'
 }
