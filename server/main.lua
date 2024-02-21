@@ -16,7 +16,7 @@ AddEventHandler('playerConnecting', function(name, setCallback, deferrals)
     deferrals.defer()
     
     deferrals.update(_U('allowlist_check'))
-    
+    LoadAllowlist()
     Wait(500)
     
     local Identifiers = PlayerIdentifiers(source)
