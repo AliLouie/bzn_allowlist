@@ -1,9 +1,9 @@
 Config = {}
-Config.Locale = 'en'
+Config.Locale = 'en' -- Also 'fa' for Persian Language
 
 Config.AutoAddFirstConnect = true
 
-Config.EnableConnectQueue = true
+Config.EnableConnectQueue = false
 
 Config.Identifier = 'steam' -- Use steam or license (Support for other identifiers is not added)
 
